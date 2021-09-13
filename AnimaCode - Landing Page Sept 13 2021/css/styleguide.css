@@ -1,0 +1,31 @@
+:root { 
+  --fiord: #395066;
+  --midnight-moss: #050505;
+  --white: #ffffff;
+ 
+  --font-size-l: 42px;
+  --font-size-m: 35px;
+  --font-size-s: 32px;
+  --font-size-xl: 48px;
+  --font-size-xs: 20px;
+ 
+  --font-family-lucidasans_unicode-regular: "LucidaSans Unicode-Regular", Helvetica;
+  --font-family-rebranddis-bold: "RebrandDis-Bold", Helvetica;
+  --font-family-timesnew_roman-bold: "TimesNew Roman-Bold", Helvetica;
+  --font-family-timesnew_roman-regular: "TimesNew Roman-Regular", Helvetica;
+}
+.timesnewroman-bold-fiord-32px {
+  color: var(--fiord);
+  font-family: var(--font-family-timesnew_roman-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.timesnewroman-regular-normal-midnight-moss-35px {
+  color: var(--midnight-moss);
+  font-family: var(--font-family-timesnew_roman-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
